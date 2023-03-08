@@ -1,21 +1,23 @@
 {
-  "name": "api-project",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Malupp/api-project.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Malupp/api-project/issues"
-  },
-  "homepage": "",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+    "name": "api-project",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "test": "jest"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Malupp/api-project.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Malupp/api-project/issues"
+    },
+    "homepage": "",
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "prettier": "2.8.4"
+    }
 }
