@@ -1,4 +1,4 @@
-const name: string = "Manuel";
+const name = "Manuel";
 
 console.log(`Hello ${name}`)
 
