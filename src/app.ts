@@ -3,8 +3,11 @@ import "express-async-errors"
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("Changed message ");
+app.get("/planets", (req, res) => {
+    res.json([
+        {name: "Mercury"},
+        {name: "Venus"}
+    ]);
 })
 
 export default app;
